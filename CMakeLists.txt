@@ -129,6 +129,7 @@ add_executable(MyTshirtSuitsMe Intermediary/fast-flow/MyTshirtSuitsMe.cpp)
 add_executable(FastMaximumFlow Intermediary/fast-flow/FastMaximumFlow.cpp)
 
 # Number Theory
+add_executable(Marbles Intermediary/number-theory/Marbles.cpp)
 add_executable(EuclidProblem Intermediary/number-theory/EuclidProblem.cpp)
 add_executable(CrucialEquation Intermediary/number-theory/CrucialEquation.cpp)
 add_executable(MediumFactorization Intermediary/number-theory/MediumFactorization.cpp)
