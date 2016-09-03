@@ -44,6 +44,9 @@ using namespace std;
 
 typedef long long ll;
 
+ll n;
+ll n1, c1, n2, c2;
+
 // C function for extended Euclidean Algorithm
 ll extended_gcd(ll a, ll b, ll &x, ll &y) {
     if(b == 0) {
@@ -58,7 +61,7 @@ ll extended_gcd(ll a, ll b, ll &x, ll &y) {
     return gcd;
 }
 
-bool solve(ll n, ll c1, ll n1, ll c2, ll n2, ll &m1, ll &m2) {
+bool solve(ll &m1, ll &m2) {
     ll gcd;
     gcd = extended_gcd(n1, n2, m1, m2);
     if (n % gcd != 0)
@@ -80,9 +83,7 @@ bool solve(ll n, ll c1, ll n1, ll c2, ll n2, ll &m1, ll &m2) {
 }
 
 int main() {
-    ll n;
     ll m1, m2;
-    ll n1, c1, n2, c2;
 
     while (true) {
         scanf("%lld", &n);
@@ -90,7 +91,7 @@ int main() {
         if (n == 0) break;
         scanf("%lld %lld %lld %lld", &c1, &n1, &c2, &n2);
 
-        if (solve(n, c1, n1, c2, n2, m1, m2))
+        if (solve(m1, m2))
             printf("%lld %lld\n", m1, m2);
         else
             printf("failed\n");
