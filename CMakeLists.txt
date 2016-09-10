@@ -124,6 +124,7 @@ add_executable(PowerTransmission Intermediary/max-flow/PowerTransmission.cpp)
 add_executable(InternetBandwidth Intermediary/max-flow/InternetBandwidth.cpp)
 
 # Fast Flow
+add_executable(ElementaryMath Intermediary/fast-flow/ElementaryMath.cpp)
 add_executable(DungeonOfDeath Intermediary/fast-flow/DungeonOfDeath.cpp)
 add_executable(MyTshirtSuitsMe Intermediary/fast-flow/MyTshirtSuitsMe.cpp)
 add_executable(FastMaximumFlow Intermediary/fast-flow/FastMaximumFlow.cpp)
