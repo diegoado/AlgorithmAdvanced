@@ -111,6 +111,9 @@ add_executable(MaximumSum Intermediary/segment-tree/MaximumSum.cpp)
 add_executable(IntervalProduct Intermediary/segment-tree/IntervalProduct.cpp)
 add_executable(CanYouAnswerTheseQueries Intermediary/segment-tree/CanYouAnswerTheseQueries.cpp)
 
+# BIT and Lazy Propagation
+add_executable(InversionCount Intermediary/bit-lazypropagation/InversionCount.cpp)
+
 # Lowest Common Ancestor
 add_executable(Trucks Intermediary/lowest-common-ancestor/Trucks.cpp)
 add_executable(AntsColony Intermediary/lowest-common-ancestor/AntsColony.cpp)

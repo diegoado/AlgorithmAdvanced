@@ -83,7 +83,7 @@ int main() {
     if (answers != n) {
         printf("impossible\n");
     } else {
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; i++) {
             a = arr[i].first, b = arr[i].second;
             if (match[i] == results[a + b])
                 printf("%lld + %lld = %lld\n", a, b, a + b);
