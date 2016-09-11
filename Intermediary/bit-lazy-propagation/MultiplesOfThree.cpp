@@ -6,7 +6,7 @@
  *
  * Spoj - Multiples of Three
  * Problem: MULTQ3 - Inversion Count
- * Time limit per test: 3.599 seconds
+ * Time limit per test: 0.169 seconds
  * Memory limit per test: 1536 megabytes
  * Input: standard input
  * Output: standard output
