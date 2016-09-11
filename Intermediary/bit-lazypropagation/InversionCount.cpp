@@ -48,14 +48,13 @@ ll merge(int temp[], int l, int mid, int r) {
 }
 
 ll mergeSort(int temp[], int left, int right) {
-    int mid;
     ll cnt = 0;
     if (right > left) {
-        mid = (right + left)/2;
+        int mid = (right + left)/2;
 
         cnt += mergeSort(temp, left, mid);
-        cnt += mergeSort(temp, mid+1, right);
-        cnt += merge(temp, left, mid+1, right);
+        cnt += mergeSort(temp, mid + 1, right);
+        cnt += merge(temp, left, mid + 1, right);
     }
     return cnt;
 }
@@ -71,9 +70,9 @@ int main() {
 
     while (t--) {
         scanf("%d", &n);
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
             scanf("%d", &arr[i]);
-        }
+
         printf("%lld\n", countInv(n));
     }
 }
