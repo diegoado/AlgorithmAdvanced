@@ -142,3 +142,6 @@ add_executable(VisibleLatticePoints Intermediary/number-theory/VisibleLatticePoi
 add_executable(PlayWithFloorAndCeil Intermediary/number-theory/PlayWithFloorAndCeil.cpp)
 add_executable(SequenceSumPossibilities Intermediary/number-theory/SequenceSumPossibilities.cpp)
 add_executable(QuidEstVeritasEstVirQuiAdest Intermediary/number-theory/QuidEstVeritasEstVirQuiAdest.cpp)
+
+# String Hashing and Tries
+add_executable(GoodSubstrings Intermediary/hashing-trie/GoodSubstrings.cpp)
