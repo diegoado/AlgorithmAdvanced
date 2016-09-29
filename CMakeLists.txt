@@ -144,4 +144,5 @@ add_executable(SequenceSumPossibilities Intermediary/number-theory/SequenceSumPo
 add_executable(QuidEstVeritasEstVirQuiAdest Intermediary/number-theory/QuidEstVeritasEstVirQuiAdest.cpp)
 
 # String Hashing and Tries
+add_executable(PhoneList Intermediary/hashing-trie/PhoneList.cpp)
 add_executable(GoodSubstrings Intermediary/hashing-trie/GoodSubstrings.cpp)
