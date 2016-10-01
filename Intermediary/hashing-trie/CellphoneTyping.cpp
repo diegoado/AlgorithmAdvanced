@@ -51,15 +51,15 @@ struct Trie {
         node->insert(s + 1);
     }
 
-    int countKeys(const char *s, int k = 0) {
+    int countKeys(const char *s, int k=0) {
         if(*s == '\0')
             return k;
 
-        Trie *tree = children[CHAR_TO_INT(*s)];
-        if (tree == NULL)
+        Trie *node = children[CHAR_TO_INT(*s)];
+        if (node == NULL)
             return 0;
 
-        return tree->countKeys(s + 1, keys == tree->keys ? k : k + 1);
+        return node->countKeys(s + 1, keys == node->keys ? k : k + 1);
     }
 };
 
