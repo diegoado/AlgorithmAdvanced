@@ -146,4 +146,5 @@ add_executable(QuidEstVeritasEstVirQuiAdest Intermediary/number-theory/QuidEstVe
 # String Hashing and Tries
 add_executable(PhoneList Intermediary/hashing-trie/PhoneList.cpp)
 add_executable(GoodSubstrings Intermediary/hashing-trie/GoodSubstrings.cpp)
+add_executable(CellphoneTyping Intermediary/hashing-trie/CellphoneTyping.cpp)
 add_executable(AStoryWithStrings Intermediary/hashing-trie/AStoryWithStrings.cpp)
