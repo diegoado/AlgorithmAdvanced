@@ -97,7 +97,7 @@ add_executable(AmrAndPins Basic/review/AmrAndPins.cpp)
 
 # Intermediary - 2016.1
 
-# bkn_size Decomposition
+# SQRT Decomposition
 add_executable(DQuery Intermediary/sqrt-decomposition/DQuery.cpp)
 add_executable(Collector Intermediary/sqrt-decomposition/Collector.cpp)
 add_executable(PowerfulArray Intermediary/sqrt-decomposition/PowerfulArray.cpp)
@@ -150,3 +150,6 @@ add_executable(GoodSubstrings Intermediary/hashing-trie/GoodSubstrings.cpp)
 add_executable(CellphoneTyping Intermediary/hashing-trie/CellphoneTyping.cpp)
 add_executable(AStoryWithStrings Intermediary/hashing-trie/AStoryWithStrings.cpp)
 add_executable(QueriesForNumberOfPalindromes Intermediary/hashing-trie/QueriesForNumberOfPalindromes.cpp)
+
+# KMP and Z-Algorithm
+add_executable(ExtendToPalindrome Intermediary/kmp-z-algorithm/ExtendToPalindrome.cpp)
