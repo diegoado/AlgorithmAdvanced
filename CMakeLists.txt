@@ -97,11 +97,12 @@ add_executable(AmrAndPins Basic/review/AmrAndPins.cpp)
 
 # Intermediary - 2016.1
 
-# SQRT Decomposition
+# bkn_size Decomposition
 add_executable(DQuery Intermediary/sqrt-decomposition/DQuery.cpp)
 add_executable(Collector Intermediary/sqrt-decomposition/Collector.cpp)
-add_executable(HorribleQueries Intermediary/sqrt-decomposition/HorribleQueries.cpp)
 add_executable(PowerfulArray Intermediary/sqrt-decomposition/PowerfulArray.cpp)
+add_executable(HorribleQueries Intermediary/sqrt-decomposition/HorribleQueries.cpp)
+add_executable(RaceAgainstTime Intermediary/sqrt-decomposition/RaceAgainstTime.cpp)
 add_executable(LittleElephantAndArray Intermediary/sqrt-decomposition/LittleElephantAndArray.cpp)
 
 # Segment Tree
