@@ -109,6 +109,7 @@ add_executable(LittleElephantAndArray Intermediary/sqrt-decomposition/LittleElep
 add_executable(Census Intermediary/segment-tree/Census.cpp)
 add_executable(ToPoland Intermediary/segment-tree/ToPoland.cpp)
 add_executable(MaximumSum Intermediary/segment-tree/MaximumSum.cpp)
+add_executable(DominoPrinciple Intermediary/segment-tree/DominoPrinciple.cpp)
 add_executable(IntervalProduct Intermediary/segment-tree/IntervalProduct.cpp)
 add_executable(CanYouAnswerTheseQueries Intermediary/segment-tree/CanYouAnswerTheseQueries.cpp)
 
