@@ -154,3 +154,4 @@ add_executable(QueriesForNumberOfPalindromes Intermediary/hashing-trie/QueriesFo
 
 # KMP and Z-Algorithm
 add_executable(ExtendToPalindrome Intermediary/kmp-z-algorithm/ExtendToPalindrome.cpp)
+add_executable(ANeedleInTheHaystack Intermediary/kmp-z-algorithm/ANeedleInTheHaystack.cpp)
