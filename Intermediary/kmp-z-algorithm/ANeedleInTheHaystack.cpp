@@ -25,10 +25,12 @@ void computeLPSArray(string pattern, int len) {
     for (int i = 1, j = 0; i < len; i++) {
         if (pattern[i] == pattern[j]) {
             lpsArr[i] = ++j;
-        } else {
+        }
+        else {
             if (j != 0) {
                 j = lpsArr[j - 1];
-            } else {
+            }
+            else {
                 lpsArr[i] = 0;
             }
         }

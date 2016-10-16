@@ -153,5 +153,6 @@ add_executable(AStoryWithStrings Intermediary/hashing-trie/AStoryWithStrings.cpp
 add_executable(QueriesForNumberOfPalindromes Intermediary/hashing-trie/QueriesForNumberOfPalindromes.cpp)
 
 # KMP and Z-Algorithm
+add_executable(Password Intermediary/kmp-z-algorithm/Password.cpp)
 add_executable(ExtendToPalindrome Intermediary/kmp-z-algorithm/ExtendToPalindrome.cpp)
 add_executable(ANeedleInTheHaystack Intermediary/kmp-z-algorithm/ANeedleInTheHaystack.cpp)
