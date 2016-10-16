@@ -42,6 +42,7 @@ int main() {
 
     computeLPSArray(s, len);
     int found = false, suitable = lpsArr[s.size()];
+
     while (suitable > 0) {
         for (int i = len - 1; i > suitable && !found; i--) {
             found = lpsArr[i] >= suitable;
@@ -55,5 +56,6 @@ int main() {
         cout << s.substr(0, suitable) << endl;
     else
         cout << "Just a legend" << endl;
+
     return 0;
 }
