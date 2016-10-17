@@ -116,6 +116,7 @@ add_executable(CanYouAnswerTheseQueries Intermediary/segment-tree/CanYouAnswerTh
 # BIT and Lazy Propagation
 add_executable(InversionCount Intermediary/bit-lazy-propagation/InversionCount.cpp)
 add_executable(MultiplesOfThree Intermediary/bit-lazy-propagation/MultiplesOfThree.cpp)
+add_executable(TheDayOfTheCompetitors Intermediary/bit-lazy-propagation/TheDayOfTheCompetitors.cpp)
 
 # Lowest Common Ancestor
 add_executable(Trucks Intermediary/lowest-common-ancestor/Trucks.cpp)
